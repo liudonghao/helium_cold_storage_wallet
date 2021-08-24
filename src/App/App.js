@@ -49,10 +49,10 @@ function App() {
   const classes = useStyles();
   return (
     <ThemeProvider theme={theme} >
-      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
+      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
         <Container >
           <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
-             <img src={Logo} style={{width:'250px', height:'250px'}}/>
+             <img src={Logo} style={{width:'200px', height:'200px', marginTop:'20px'}}/>
           </div>
           <BWMain />
           

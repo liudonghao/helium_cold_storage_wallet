@@ -130,7 +130,7 @@ export default function StateTextFields() {
             </div>
             <div>
                 <TextField id="field1" 
-                label="Step 1. Your Secret Phrase" 
+                label="Step 1 - Your Secret Phrase" 
                 placeholder=""
                 helperText="Enter Your Own Phrase Here, WARNING: Spacing, Capitalization, and Punctuation Matter!"
                 value={mnemonic} 
@@ -148,7 +148,7 @@ export default function StateTextFields() {
             <div>
                 <TextField
                 id="field2"
-                label="Step 2. SALT"
+                label="Step 2 - SALT"
                 placeholder=""
                 helperText="DO NOT REMOVE ANY CHARACTERS, the Position of your SALT matters. Click to place your cursor in the desired Position, type to add your SALT."
                 value={saltedMD5}
@@ -167,7 +167,7 @@ export default function StateTextFields() {
             <div>
                 <TextField
                 id="field3"
-                label="Result 1 – Helium Wallet 12 Words (DO NOT SHARE)!"
+                label="Result 1 - Helium Wallet 12 Words (DO NOT SHARE)!"
                 value={words12}
                 InputLabelProps={{style: {fontSize: 22}}} 
                 helperText="Helium Wallet 12 Words (DO NOT SHARE)!"
@@ -176,7 +176,7 @@ export default function StateTextFields() {
             <div>
                 <TextField
                 id="field4"
-                label="Result 2. Helium Wallet Public Address, Safe to Share!"
+                label="Result 2 - Helium Wallet Public Address, Safe to Share!"
                 value={walletAddress}
                 InputLabelProps={{style: {fontSize: 22}}} 
                 helperText="Helium Wallet Public Address, Safe to Share!"
@@ -191,7 +191,7 @@ export default function StateTextFields() {
                 <br/>
                 <Divider/>
                 <Typography variant="body2" align='center' gutterBottom>
-                Powered By: HNT-ICE.com | <a href='https://hnt-ice.com/terms'>Terms and Conditions</a> | This Project is Open-Source and may be downloaded here.
+                Powered By: HNT-ICE.com | <a href='https://hnt-ice.com/terms' target='_blank'>Terms and Conditions</a> | This Project is Open-Source and may be downloaded <a href='https://github.com/liudonghao/helium_cold_storage_wallet' target='_blank'>here</a>.
                 </Typography>
             </div>
         </div>
